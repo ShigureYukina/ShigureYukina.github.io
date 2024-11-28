@@ -5,9 +5,9 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'Valaxy Theme Yun',
   author: {
-    name: '云游君',
+    name: '千崎志乃',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: '千崎志乃的个人博客.',
   social: [
     {
       name: '个人QQ 1220870371',
