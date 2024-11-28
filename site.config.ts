@@ -1,15 +1,51 @@
-import {defineSiteConfig} from 'valaxy'
-
+import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://shigureyukina.github.io/',
   lang: 'zh-CN',
   title: '米崎妙妙屋',
   author: {
     name: '千崎志乃',
+    avatar: "https://i2.hdslb.com/bfs/face/29ad18a3769644ecccea2f88ff6b077787a68387.jpg@96w_96h_!web-dynamic.webp",	//头像链接
+    status: {
+      emoji: '♥',	// 头像旁边的emoji
+      message: '自由中'
+    },
   },
   description: '千崎志乃的个人博客.',
-  social: [],
-
+  social: [
+    {
+      name: '个人QQ',
+      link: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1220870371',
+      icon: 'i-ri-qq-line',
+      color: '#12B7F5',
+    },
+    {
+      name: '哔哩哔哩',
+      link: 'https://space.bilibili.com/32494859',
+      icon: 'i-ri-bilibili-line',
+      color: '#FF8EB3',
+    },
+    {
+      name: 'E-Mail',
+      link: 'mailto:shigureyuki@duck.com',
+      icon: 'i-ri-mail-line',
+      color: '#8E71C1',
+    },
+    {
+      name: 'Twitter',
+      link: 'https://x.com/sweyyuki',
+      icon: 'i-ri-twitter-line',
+      color: '#1DA1F2',
+    },
+    {
+      name: 'GitHub',
+      link: 'https://github.com/ShigureYukina',
+      icon: 'i-ri-github-line',
+      color: '#000000',
+    },
+  ],
+  favicon: 'pwa-192x192.png',
+  lastUpdated: true,
   search: {
     enable: true,
     type: 'engine',
@@ -39,18 +75,5 @@ export default defineSiteConfig({
       },
     ],
   },
-
-  statistics: {
-    enable: true,
-    readTime: {
-      /**
-       * 阅读速度
-       */
-      speed: {
-        cn: 300,
-        en: 200,
-      },
-    },
-  },
-
 })
+

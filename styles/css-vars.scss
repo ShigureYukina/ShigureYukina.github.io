@@ -4,4 +4,28 @@
   --yun-bg-img: url("https://w.wallhaven.cc/full/p9/wallhaven-p9ep13.png");
   /* 侧边栏背景图片 */
   --yun-sidebar-bg-img: url("https://cdn.yunyoujun.cn/img/bg/alpha-stars-timing-1.webp");
+  // styles/css-vars.scss
+  :root {
+    // 白天模式下文章框的底色
+    --va-c-bg-light: rgba(255, 255, 255, 0.7);
+    // 边栏背景图片
+    --yun-sidebar-bg-img: url(https://cloudflare.remsait.com/img/mayuouli.png);
+    // 边栏背景颜色透明
+    --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+
+    --va-font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;  //momo字体
+  }
+  // 夜晚模式下文章框的底色
+  html.dark{
+    --va-c-bg-light:rgba(5, 16, 29, 0.7);
+  }
+
+  // 首页大字两边的背景
+  .char-left {
+    border-right:0px solid rgba(255,255,255, 0)
+  }
+  .char-right {
+    border-left:0px solid rgba(255,255,255, 0)
+  }
+
 }
