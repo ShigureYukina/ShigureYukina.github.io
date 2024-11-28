@@ -9,7 +9,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
       title: 'Hello, sakura',
       motto: 'You got to put the past behind you before you can move on.',
       urls: [
-        'https://wrxinyue-images.s3.bitiful.net/pc-wallpaper/wallhaven-yxwy7k.jpg'
+        'https://w.wallhaven.cc/full/2y/wallhaven-2ymr79.png'
       ],
       style: 'filter-dot',
     },
