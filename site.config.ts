@@ -19,7 +19,7 @@ export default defineSiteConfig({
       name: 'GitHub',
       link: 'https://github.com/ShigureYukina',
       icon: 'i-ri-github-line',
-      color: '#6e5494',
+      color: '#FFFFFF',
     },
     {
       name: '哔哩哔哩',
