@@ -12,6 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@iconify-json/logos": "^1.2.3",
     "valaxy": "0.20.6",
     "valaxy-theme-sakura": "^0.6.8",
     "valaxy-theme-yun": "0.20.6"

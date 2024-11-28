@@ -3,44 +3,22 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '米崎妙妙屋',
   author: {
     name: '千崎志乃',
   },
   description: '千崎志乃的个人博客.',
   social: [
-    {
-      name: '个人QQ 1220870371',
-      link: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1220870371',
-      icon: 'i-ri-qq-line',
-      color: '#12B7F5',
-    },
-    {
-      name: 'GitHub',
-      link: 'https://github.com/ShigureYukina',
-      icon: 'i-ri-github-line',
-      color: '#FFFFFF',
-    },
-    {
-      name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/32494859',
-      icon: 'i-ri-bilibili-line',
-      color: '#FF8EB3',
-    },
-    {
-      name: 'E-Mail',
-      link: 'shigureyuki@duck.com',
-      icon: 'i-ri-mail-line',
-      color: '#8E71C1',
-    },
+
   ],
 
   search: {
-    enable: false,
+    enable: true,
+    type: 'engine',
   },
 
   sponsor: {
-    enable: true,
+    enable: false,
     title: '感谢支持',
     methods: [
       {
