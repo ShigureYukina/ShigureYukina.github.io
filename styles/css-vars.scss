@@ -1,7 +1,5 @@
 // you can custom css vars here
 :root {
-  /* 背景图片 */
-  --yun-bg-img: url("https://w.wallhaven.cc/full/2y/wallhaven-2ymr79.png");
 
   // 白天模式下文章框的底色
   --va-c-bg-light: rgba(255, 255, 255, 0.7);
@@ -14,7 +12,6 @@
 
   // 夜晚模式下文章框的底色
   html.dark {
-    --yun-bg-img: url("https://w.wallhaven.cc/full/p9/wallhaven-p9ep13.png");
     --va-c-bg-light: rgba(5, 16, 29, 0.7);
   }
 

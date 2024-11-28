@@ -25,7 +25,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#12B7F5',
       },
     ],
-    
+    bg_image: {
+      enable: true,
+      url: "https://w.wallhaven.cc/full/vq/wallhaven-vqk3pm.png",	// 日间背景
+      dark: "https://w.wallhaven.cc/full/2y/wallhaven-2ymr79.png",	// 夜间背景
+      opacity: 0.8
+    },
 
     footer: {
       since: 2024,
