@@ -4,15 +4,18 @@ export default defineSiteConfig({
   url: 'https://shigureyukina.github.io/',
   lang: 'zh-CN',
   title: '米崎妙妙屋',
+  subtitle: '日が暮れては 帰ろうねと',
+
   author: {
     name: '千崎志乃',
     avatar: "https://avatars.githubusercontent.com/u/142714300",	//头像链接
+
     status: {
       emoji: '♥',	// 头像旁边的emoji
       message: '自由中'
     },
   },
-  description: '千崎志乃的个人博客.',
+  description: '',
   social: [
     {
       name: '个人QQ',
