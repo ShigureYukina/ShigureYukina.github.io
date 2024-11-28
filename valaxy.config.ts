@@ -1,48 +1,18 @@
-import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig } from 'valaxy'
+import { defineConfig } from 'valaxy'
+import type { ThemeUserConfig } from 'valaxy-theme-sakura'
 
-// add icons what you will need
-const safelist = [
-  'i-ri-home-line',
-]
-
-/**
- * User Config
- */
-export default defineValaxyConfig<UserThemeConfig>({
-  // site config see site.config.ts
-
-  theme: 'yun',
+export default defineValaxyConfig<ThemeUserConfig>({
+  theme: 'sakura',
 
   themeConfig: {
     banner: {
-      enable: true,
-      title: '云游君的小站',
-    },
-
-    pages: [
-      {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },
-    ],
-
-    footer: {
-      since: 2016,
-      beian: {
-        enable: true,
-        icp: '苏ICP备17038157号',
-      },
+      title: 'Hello, sakura',
+      motto: 'You got to put the past behind you before you can move on.',
+      urls: [
+        'https://wrxinyue-images.s3.bitiful.net/wallpaper/Genshin Impact - Yae Miko (4) Cybust PC.mp4',
+        'https://wrxinyue-images.s3.bitiful.net/pc-wallpaper/wallhaven-yxwy7k.jpg'
+      ],
+      style: 'filter-dot',
     },
   },
-
-  unocss: { safelist },
 })
