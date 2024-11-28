@@ -22,16 +22,18 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '关于站点',
         url: '/about/site',
         icon: 'i-ri-home-4-line',
-        color: '#12B7F5',
+        color: '#9283e5',
       },
     ],
     bg_image: {
       enable: true,
-      url: "https://w.wallhaven.cc/full/vq/wallhaven-vqk3pm.png",	// 日间背景
+      url: "https://wallpapercave.com/wp/wp13991488.jpg",	// 日间背景
       dark: "https://w.wallhaven.cc/full/2y/wallhaven-2ymr79.png",	// 夜间背景
       opacity: 0.8
     },
-
+    colors: {
+      primary: "#9283e5",
+    },
     footer: {
       since: 2024,
       beian: {

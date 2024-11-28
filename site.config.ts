@@ -1,11 +1,12 @@
-import { defineSiteConfig } from 'valaxy'
+import {defineSiteConfig} from 'valaxy'
+
 export default defineSiteConfig({
   url: 'https://shigureyukina.github.io/',
   lang: 'zh-CN',
   title: '米崎妙妙屋',
   author: {
     name: '千崎志乃',
-    avatar: "https://i2.hdslb.com/bfs/face/29ad18a3769644ecccea2f88ff6b077787a68387.jpg@96w_96h_!web-dynamic.webp",	//头像链接
+    avatar: "https://avatars.githubusercontent.com/u/142714300",	//头像链接
     status: {
       emoji: '♥',	// 头像旁边的emoji
       message: '自由中'
