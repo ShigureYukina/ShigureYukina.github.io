@@ -25,8 +25,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#12B7F5',
       },
     ],
-
-
+    
 
     footer: {
       since: 2024,
