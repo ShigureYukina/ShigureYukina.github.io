@@ -1,4 +1,4 @@
-import { defineSiteConfig } from 'valaxy'
+import {defineSiteConfig} from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
@@ -8,9 +8,7 @@ export default defineSiteConfig({
     name: '千崎志乃',
   },
   description: '千崎志乃的个人博客.',
-  social: [
-
-  ],
+  social: [],
 
   search: {
     enable: true,
@@ -41,4 +39,18 @@ export default defineSiteConfig({
       },
     ],
   },
+
+  statistics: {
+    enable: true,
+    readTime: {
+      /**
+       * 阅读速度
+       */
+      speed: {
+        cn: 300,
+        en: 200,
+      },
+    },
+  },
+
 })
