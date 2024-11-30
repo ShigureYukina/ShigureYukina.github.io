@@ -2,7 +2,8 @@
 :root {
   // 白天模式下文章框的底色
   --va-c-bg-light: rgba(255, 255, 255, 0.7);
-
+  // 边栏背景图片
+  // 边栏背景颜色透明
   --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
 }
 
@@ -18,10 +19,4 @@ html.dark {
 
 .char-right {
   border-left: 0px solid rgba(255, 255, 255, 0)
-}
-.yun-icon-btn:hover {
-	// 鼠标放上去的效果
-	cursor: pointer;
-	// 放大效果
-	scale: 1.15;
 }

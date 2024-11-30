@@ -31,8 +31,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 			},
 			{
 				name: '关于我',
-				url: '/about',
-				icon: 'i-mdi-account-circle-outline',
+				url: '/about/index.md',
+				icon: 'i-ri-user-line',
 				color: '#9283e5',
 			},
 		],

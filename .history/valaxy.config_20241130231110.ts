@@ -30,9 +30,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 				color: '#9283e5',
 			},
 			{
-				name: '关于我',
-				url: '/about',
-				icon: 'i-mdi-account-circle-outline',
+				name: ' ',
+				url: '/about/site',
+				icon: 'i-mdi-link-variant',
 				color: '#9283e5',
 			},
 		],

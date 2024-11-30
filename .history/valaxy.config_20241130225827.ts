@@ -25,14 +25,30 @@ export default defineValaxyConfig<UserThemeConfig>({
 			},
 			{
 				name: '留言板',
-				url: '/links/message',
-				icon: 'i-ri-message-line',
-				color: '#9283e5',
-			},
-			{
-				name: '关于我',
-				url: '/about',
-				icon: 'i-mdi-account-circle-outline',
+				url: '/about/site',
+				icon: '13354 icons
+
+
+Google
+Apache 2.0
+
+
+
+mess
+
+174 icons
+
+built by @antfu, powered by Iconify
+
+Last update: 2024 / 10 /09 04: 56(2 months ago)
+Bag
+0 icons picked
+
+No icons yet ;)
+
+
+How to use the icon ?
+	i - material - symbols - light - comments - ',
 				color: '#9283e5',
 			},
 		],

@@ -25,14 +25,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 			},
 			{
 				name: '留言板',
-				url: '/links/message',
+				url: '/about/site',
 				icon: 'i-ri-message-line',
-				color: '#9283e5',
-			},
-			{
-				name: '关于我',
-				url: '/about',
-				icon: 'i-mdi-account-circle-outline',
 				color: '#9283e5',
 			},
 		],

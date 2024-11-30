@@ -1,6 +1,5 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-
 // add icons what you will need
 const safelist = [
 	'i-ri-home-line',
@@ -20,20 +19,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 			{
 				name: '关于站点',
 				url: '/about/site',
-				icon: 'i-mdi-file-word-box-outline',
-				color: '#9283e5',
-			},
-			{
-				name: '留言板',
-				url: '/links/message',
-				icon: 'i-ri-message-line',
-				color: '#9283e5',
-			},
-			{
-				name: '关于我',
-				url: '/about',
-				icon: 'i-mdi-account-circle-outline',
-				color: '#9283e5',
+				icon: 'i-ri-home-4-line',
+				color: '#FFFFFF',
 			},
 		],
 		bg_image: {

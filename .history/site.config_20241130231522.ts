@@ -38,7 +38,7 @@ export default defineSiteConfig({
 		{
 			name: 'Twitter',
 			link: 'https://x.com/sweyyuki',
-			icon: 'i-ri-twitter-line',
+			icon: 'i-ri-twitter-x-line',
 			color: '#1DA1F2',
 		},
 		{

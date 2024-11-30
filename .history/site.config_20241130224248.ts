@@ -33,7 +33,7 @@ export default defineSiteConfig({
 			name: 'E-Mail',
 			link: 'mailto:shigureyuki@duck.com',
 			icon: 'i-ri-mail-line',
-			color: '#FFD700',
+			color: '#G',
 		},
 		{
 			name: 'Twitter',
