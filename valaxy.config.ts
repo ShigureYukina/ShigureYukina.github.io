@@ -3,12 +3,9 @@ import {defineValaxyConfig} from 'valaxy'
 
 // add icons what you will need
 const safelist = [
-  'i-ri-home-line',
+  'i-ri-keynote-fill',
 ]
 
-/**
- * User Config
- */
 export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
 
@@ -25,6 +22,14 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#9283e5',
       },
     ],
+    menu: {
+      custom: {
+        title: '123456',
+        url: '/slides/',
+        icon: 'i-ri-keynote-fill'
+
+      }
+    },
     bg_image: {
       enable: true,
       url: "https://wallpapercave.com/wp/wp13991488.jpg",	// 日间背景

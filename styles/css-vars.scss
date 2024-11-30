@@ -5,8 +5,11 @@
   // 边栏背景图片
   // 边栏背景颜色透明
   --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+  --yun-sidebar-bg-img: url("https://cdn.yunyoujun.cn/img/bg/alpha-stars-timing-1.webp");
 }
-
+.vertical-line-top, .vertical-line-bottom{
+  background: linear-gradient(#4d73ab 0,#ff7f50 100%);
+}
 // 夜晚模式下文章框的底色
 html.dark {
   --va-c-bg-light: rgba(5, 16, 29, 0.7);
@@ -19,4 +22,18 @@ html.dark {
 
 .char-right {
   border-left: 0px solid rgba(255, 255, 255, 0)
+}
+// 首页白熊的神秘小屋左右两边的背景，让他变透明
+span.char-left {
+  border-right:0px solid rgba(255,255,255, 0)
+}
+// 首页白熊的神秘小屋左右两边的背景，让他变透明
+span.char-right {
+  border-left:0px solid rgba(255,255,255, 0)
+}
+.yun-icon-btn:hover{
+  // 鼠标放上去的效果
+  cursor: pointer;
+  // 放大效果
+  scale: 1.15;
 }
