@@ -21,19 +21,19 @@ export default defineValaxyConfig<UserThemeConfig>({
 				name: '关于站点',
 				url: '/about/site',
 				icon: 'i-mdi-file-word-box-outline',
-				color: '#9283e5',
+				color: '#f38181',
 			},
 			{
 				name: '留言板',
 				url: '/links/message',
 				icon: 'i-ri-message-line',
-				color: '#9283e5',
+				color: '#3d84a8',
 			},
 			{
 				name: '关于我',
 				url: '/about',
 				icon: 'i-mdi-account-circle-outline',
-				color: '#9283e5',
+				color: '#f08a5d',
 			},
 		],
 		bg_image: {

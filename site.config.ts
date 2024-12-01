@@ -21,7 +21,7 @@ export default defineSiteConfig({
 			name: '个人QQ',
 			link: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1220870371',
 			icon: 'i-ri-qq-line',
-			color: '#12B7F5',
+			color: '#4868e8',
 		},
 		{
 			name: '哔哩哔哩',
