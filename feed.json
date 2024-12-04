@@ -1,0 +1,49 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "米崎妙妙屋",
+    "home_page_url": "https://shigureyukina.github.io/",
+    "feed_url": "https://shigureyukina.github.io/feed.json",
+    "icon": "https://avatars.githubusercontent.com/u/142714300",
+    "author": {
+        "name": "千崎志乃",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check [documentation](<a href=\"https://hex\">https://hex</a></p>\n<br/><p>访问 <a href=\"https://shigureyukina.github.io/posts/hello-world\" target=\"_blank\">https://shigureyukina.github.io/posts/hello-world</a> 阅读全文。</p>",
+            "url": "https://shigureyukina.github.io/posts/hello-world",
+            "title": "Hello World",
+            "date_modified": "2024-12-04T13:47:55.292Z",
+            "date_published": "2024-12-04T13:47:55.292Z",
+            "author": {
+                "name": "千崎志乃",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>导语</h1>\n<p>  初看名字，搭配上海报，许多人或许会以为本番是日常向的百合剧。但是由于编剧的恶意，本番在开头便采用倒序手法，火焰中女主的独白与出人意料的一跃而下，吸引住了观众的目光，同</p>\n<br/><p>访问 <a href=\"https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》\" target=\"_blank\">https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》</a> 阅读全文。</p>",
+            "url": "https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》",
+            "title": "浅评《Happy Sugar Life》",
+            "date_modified": "2024-05-14T11:29:44.000Z",
+            "date_published": "2024-12-04T13:47:55.292Z",
+            "author": {
+                "name": "千崎志乃",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://shigureyukina.github.io/posts/hello-valaxy\" target=\"_blank\">https://shigureyukina.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://shigureyukina.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "千崎志乃",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

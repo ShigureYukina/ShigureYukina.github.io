@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>米崎妙妙屋</title>
+        <link>https://shigureyukina.github.io/</link>
+        <description></description>
+        <lastBuildDate>Wed, 04 Dec 2024 13:48:35 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>米崎妙妙屋</title>
+            <url>https://avatars.githubusercontent.com/u/142714300</url>
+            <link>https://shigureyukina.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 千崎志乃</copyright>
+        <atom:link href="https://shigureyukina.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://shigureyukina.github.io/posts/hello-world</link>
+            <guid>https://shigureyukina.github.io/posts/hello-world</guid>
+            <pubDate>Wed, 04 Dec 2024 13:47:55 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
+<br/><p>访问 <a href="https://shigureyukina.github.io/posts/hello-world" target="_blank">https://shigureyukina.github.io/posts/hello-world</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (千崎志乃)</author>
+        </item>
+        <item>
+            <title><![CDATA[浅评《Happy Sugar Life》]]></title>
+            <link>https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》</link>
+            <guid>https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》</guid>
+            <pubDate>Wed, 04 Dec 2024 13:47:55 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>导语</h1>
+<p>  初看名字，搭配上海报，许多人或许会以为本番是日常向的百合剧。但是由于编剧的恶意，本番在开头便采用倒序手法，火焰中女主的独白与出人意料的一跃而下，吸引住了观众的目光，同</p>
+<br/><p>访问 <a href="https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》" target="_blank">https://shigureyukina.github.io/posts/浅评《Happy-Sugar-Life》</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (千崎志乃)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://shigureyukina.github.io/posts/hello-valaxy</link>
+            <guid>https://shigureyukina.github.io/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://shigureyukina.github.io/posts/hello-valaxy" target="_blank">https://shigureyukina.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (千崎志乃)</author>
+        </item>
+    </channel>
+</rss>
