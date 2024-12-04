@@ -1,59 +1,59 @@
-import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig } from 'valaxy'
+import type {UserThemeConfig} from 'valaxy-theme-yun'
+import {defineValaxyConfig} from 'valaxy'
 
 // add icons what you will need
 const safelist = [
-	'i-ri-home-line',
+  'i-ri-home-line',
 ]
 /**
  * User Config
  */
 export default defineValaxyConfig<UserThemeConfig>({
-	theme: 'yun',
+  theme: 'yun',
 
-	themeConfig: {
-		banner: {
-			enable: true,
-			title: '米崎妙妙屋',
-		},
-		pages: [
-			{
-				name: '关于站点',
-				url: '/about/site',
-				icon: 'i-mdi-file-word-box-outline',
-				color: '#f38181',
-			},
-			{
-				name: '留言板',
-				url: '/links/message',
-				icon: 'i-ri-message-line',
-				color: '#3d84a8',
-			},
-			{
-				name: '关于我',
-				url: '/about',
-				icon: 'i-mdi-account-circle-outline',
-				color: '#f08a5d',
-			},
-		],
-		bg_image: {
-			enable: true,
-			url: "https://wallpapercave.com/wp/wp13991488.jpg",	// 日间背景
-			dark: "https://w.wallhaven.cc/full/2y/wallhaven-2ymr79.png",	// 夜间背景
-			opacity: 0.8
-		},
-		colors: {
-			primary: "#9283e5",
-		},
-		footer: {
-			since: 2024,
-			beian: {
-				enable: false,
-				icp: '苏ICP备17038157号',
-			},
-		},
-	},
-	unocss: { safelist },
+  themeConfig: {
+    banner: {
+      enable: true,
+      title: '米崎妙妙屋',
+    },
+    pages: [
+      {
+        name: '关于站点',
+        url: '/about/site',
+        icon: 'i-mdi-file-word-box-outline',
+        color: '#f38181',
+      },
+      {
+        name: '留言板',
+        url: '/links/message',
+        icon: 'i-ri-message-line',
+        color: '#3d84a8',
+      },
+      {
+        name: '关于我',
+        url: '/about',
+        icon: 'i-mdi-account-circle-outline',
+        color: '#f08a5d',
+      },
+    ],
+    bg_image: {
+      enable: true,
+      url: "https://wallpapercave.com/wp/wp13991488.jpg",	// 日间背景
+      dark: "https://w.wallhaven.cc/full/2y/wallhaven-2ymr79.png",	// 夜间背景
+      opacity: 0.8
+    },
+    colors: {
+      primary: "#9283e5",
+    },
+    footer: {
+      since: 2024,
+      beian: {
+        enable: false,
+        icp: '苏ICP备17038157号',
+      },
+    },
+  },
+  unocss: {safelist},
 
 })
 
